@@ -11,16 +11,13 @@ The file has the following structure (the text part, which separates PMs from VM
 <br>
 PHYSICAL MACHINES
 <br>
-<br>
 4 8 16 24 32<br>
 8 16 32 48 64<br>
 100 120 140 160 200<br>
 410 410 420 430 440<br>
 <br>
-<br>
 VIRTUAL MACHINES
 <br>
-<br> 
 1 2 4<br>
 2 4 8<br>
 4 6 10<br>
@@ -37,9 +34,9 @@ The 4 lines in the VMs part indicate the possible values, respectively, for each
 
 _b)_ Executing: Once the previous configurations for the DC have been completed, the simulator is executed as follows:
 
-```sh
-   $ ./simulator input/datacenter_input.vmp 12 50
-```
+
+   *$ ./simulator input/datacenter_input.vmp 12 50*
+
 
 where, **datacenter_input.vmp** was the name given to the file with the datacenter PMs and VMs configuration, and **12 50** indicates that a datacenter with 12 PMs and 50 VMs should be created.
 
@@ -50,7 +47,7 @@ _c)_ The program will generate a file in the folder **/output** with the name, f
 
 If you want to adapt the code to your needs, the compilation command to be used is:
 
-```sh
-   $ gcc -o simulator simulator.c simulator_common.c -g -lm
-```
+
+   *$ gcc -o simulator simulator.c simulator_common.c -g -lm*
+
 
