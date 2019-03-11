@@ -10,14 +10,14 @@ The file has the following structure (the text part, which separates PMs from VM
 <br>
 <br>
 PHYSICAL MACHINES
-<br>
+<br><br>
 4 8 16 24 32<br>
 8 16 32 48 64<br>
 100 120 140 160 200<br>
 410 410 420 430 440<br>
 <br>
 VIRTUAL MACHINES
-<br>
+<br><br>
 1 2 4<br>
 2 4 8<br>
 4 6 10<br>
