@@ -49,3 +49,4 @@ If you want to adapt the code to your needs, the compilation command to be used 
 ```sh
    $ gcc -o simulator simulator.c simulator_common.c -g -lm
 ```
+
