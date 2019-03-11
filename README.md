@@ -35,8 +35,9 @@ The 4 lines in the VMs part indicate the possible values, respectively, for each
 _b)_ Executing: Once the previous configurations for the DC have been completed, the simulator is executed as follows:
 
 
-   *$ ./simulator input/datacenter_input.vmp 12 50*
-
+```sh
+$ ./simulator input/datacenter_input.vmp 12 50
+```
 
 where, **datacenter_input.vmp** was the name given to the file with the datacenter PMs and VMs configuration, and **12 50** indicates that a datacenter with 12 PMs and 50 VMs should be created.
 
@@ -47,7 +48,7 @@ _c)_ The program will generate a file in the folder **/output** with the name, f
 
 If you want to adapt the code to your needs, the compilation command to be used is:
 
-
-   *$ gcc -o simulator simulator.c simulator_common.c -g -lm*
-
+```sh
+$ gcc -o simulator simulator.c simulator_common.c -g -lm
+```
 
