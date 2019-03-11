@@ -11,15 +11,22 @@ The file has the following structure (the text part, which separates PMs from VM
 > PHYSICAL MACHINES
 > 
 > 4 8 16 24 32
+
 > 8 16 32 48 64
+
 > 100 120 140 160 200
+
 > 410 410 420 430 440
+
 > 
 > VIRTUAL MACHINES
 > 
 > 1 2 4
+
 > 2 4 8
+
 > 4 6 10
+
 > 50 0 0
 
 
