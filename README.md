@@ -8,26 +8,28 @@ _a)_ The capacity settings of the PMs, as well as the requirements of the VMs, m
 
 The file has the following structure (the text part, which separates PMs from VMs, is fixed and must exist):
 
-> PHYSICAL MACHINES
-> 
-> 4 8 16 24 32
+PHYSICAL MACHINES
 
-> 8 16 32 48 64
 
-> 100 120 140 160 200
+4 8 16 24 32
 
-> 410 410 420 430 440
+8 16 32 48 64
 
-> 
-> VIRTUAL MACHINES
-> 
-> 1 2 4
+100 120 140 160 200
 
-> 2 4 8
+410 410 420 430 440
 
-> 4 6 10
+ 
+VIRTUAL MACHINES
 
-> 50 0 0
+ 
+1 2 4
+
+2 4 8
+
+4 6 10
+
+50 0 0
 
 
 Let's call this file **datacenter_input.vmp**. The 4 existing lines in the PMs part indicate the possible values for each of the datacenter PMs. And the sequence of these 4 lines represents, respectively: Number of Processors (in the example, 4 8 16 24 32), Memory Quantity (in the example, 8 16 32 48 64), Disk Capacity (in the example, 100 120 140 160 200 ) and Energy Consumption (in the example, 410 410 420 430 440). Each row is associated with the possible values that a given parameter can assume.
