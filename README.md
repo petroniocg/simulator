@@ -12,25 +12,19 @@ The file has the following structure (the text part, which separates PMs from VM
 PHYSICAL MACHINES
 <br>
 <br>
-4 8 16 24 32
-
-8 16 32 48 64
-
-100 120 140 160 200
-
-410 410 420 430 440
+4 8 16 24 32<br>
+8 16 32 48 64<br>
+100 120 140 160 200<br>
+410 410 420 430 440<br>
 <br>
 <br>
 VIRTUAL MACHINES
 <br>
 <br> 
-1 2 4
-
-2 4 8
-
-4 6 10
-
-50 0 0
+1 2 4<br>
+2 4 8<br>
+4 6 10<br>
+50 0 0<br>
 <br>
 <br>
 Let's call this file **datacenter_input.vmp**. The 4 existing lines in the PMs part indicate the possible values for each of the datacenter PMs. And the sequence of these 4 lines represents, respectively: Number of Processors (in the example, 4 8 16 24 32), Memory Quantity (in the example, 8 16 32 48 64), Disk Capacity (in the example, 100 120 140 160 200 ) and Energy Consumption (in the example, 410 410 420 430 440). Each row is associated with the possible values that a given parameter can assume.
