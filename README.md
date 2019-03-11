@@ -1,12 +1,14 @@
-#The Datacenter (DC) Simulator
-#================================
+# The Datacenter (DC) Simulator
+
+# ================================
 
 This software randomly generates a simulated datacenter file configuration, receiving as input a file with the limits of resources that one wants to assign to the machines (physical and virtual) and the quantities of physical and virtual machines (PMs and VMs) desired.
 
 
 
-##OPERATION:
-##================================
+## OPERATION:
+
+## ================================
 
 1) The capacity settings of the PMs, as well as the requirements of the VMs, must be configured in a text file within the **/input** folder. The name given to this file will be used at the time of execution, as input.
 
@@ -15,15 +17,21 @@ This software randomly generates a simulated datacenter file configuration, rece
 PHYSICAL MACHINES
 
 4 8 16 24 32
+
 8 16 32 48 64
+
 100 120 140 160 200
+
 410 410 420 430 440
 
 VIRTUAL MACHINES
 
 1 2 4
+
 2 4 8
+
 4 6 10
+
 50 0 0
 
 
@@ -44,8 +52,9 @@ VIRTUAL MACHINES
 3) The program will generate a file in the folder **/output** with the name, for example, 12x50.vmp which were the quantities of PMs and VMs requested in the simulator's execution line.
 
 
-##MODIFICATIONS
-##================================
+## MODIFICATIONS
+
+## ================================
 
 If you want to adapt the code to your needs, the compilation command to be used is:
 
