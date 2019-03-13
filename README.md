@@ -44,7 +44,7 @@ where, **datacenter_input.vmp** was the name given to the file with the datacent
 _c)_ The program will generate a file in the folder **/output** with the name, for example, 12x50.vmp which were the quantities of PMs and VMs requested in the simulator's execution line.
 
 
-## MODIFICATIONS
+## Modifications:
 
 If you want to adapt the code to your needs, the compilation command to be used is:
 
